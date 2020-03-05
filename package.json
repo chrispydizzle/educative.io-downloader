@@ -5,13 +5,18 @@
   "main": "app.js",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
-    "config": "^3.2.4",
-    "puppeteer": "^2.0.0"
+    "config": "^3.3.0",
+    "node-tesseract-ocr": "^1.0.0",
+    "puppeteer": "^2.1.1",
+    "tscli": "^0.1.2-alpha.21.3",
+    "tsconfig": "^7.0.0",
+    "tsconfig-cli": "^2.1.0",
+    "yarn": "^1.22.0"
   },
   "devDependencies": {
-    "@types/cheerio": "^0.22.15",
-    "@types/node": "^13.1.7",
-    "@types/puppeteer": "^2.0.0"
+    "@types/cheerio": "^0.22.16",
+    "@types/node": "^13.7.7",
+    "@types/puppeteer": "^2.0.1"
   },
   "scripts": {
     "start": "node build/src/app.js",
